@@ -2,4 +2,19 @@
 <contentList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <content contentuid="hc8c88452gee5fgf713g2445g42ce2fd667bb" version="1">Test Passive 1</content>
   <content contentuid="h5d74b51egf133gc88bgffbeg3c9e2c5fb08f" version="1">Test Passive 2</content>
+  <content contentuid="hf7610941gf872g7cdcgdbccgdd8dbcbedd2a" version="1">Hearty</content>
+  <content contentuid="h8485a9a5g1135g684fgdedfg303f78c553f7" version="1">Nomadic</content>
+  <content contentuid="h1f6cd72cgbf7ag70aeg0c6bg2bd777a37d0c" version="1">Resourceful</content>
+  <content contentuid="hbfecdd94g0011ga1c9g6a7cg9581bcadec1c" version="1">Tenacious</content>
+  <content contentuid="hef38f4fag6e0fg16eeg6becg4655421cdd6c" version="1">If you reach 0 &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt;, you regain [1] instead of becoming &lt;LSTag Tooltip="Downed"&gt;Downed&lt;/LSTag&gt;.</content>
+  <content contentuid="h55d35030g7797g6f67gf55dg556d543ffd0c" version="1">You have 1 extra maximum &lt;LSTag Tooltip="HitPoints"&gt;hit point&lt;/LSTag&gt; per level.</content>
+  <content contentuid="hd8b0b523g5482g34bcg1e3eg1e33a008f191" version="1">Your &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; increases by [1].</content>
+  <content contentuid="h73bebfc3g3e0ag1f8dg0bb0gd075c5567fda" version="1">Whenever you fail a &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; or miss an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;, you can roll again, using the new result instead.</content>
+  <content contentuid="hb20db438g02ffgd0e4gb6b2gce058485a3d1" version="1">Tenacious</content>
+  <content contentuid="he13d4940ge945g3631g3962g514751ee64db" version="1">Tenacious</content>
+  <content contentuid="h1a3e8f3eg1e56g220fga328g1ae18ed2f62b" version="1">Heroic Inspiration: Saving Throw</content>
+  <content contentuid="h243a1bb3g2f1bged33gdb78g960ce75a8bb3" version="1">Whenever you fail a &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;, you can roll again, using the new result instead.</content>
+  <content contentuid="hf0848025g6f1cg1534g5838g1af15b3b47ce" version="1">Heroic Inspiration: Attack Roll</content>
+  <content contentuid="h470222dbgeb72g6a1ag3d5ag701387949bbd" version="1">Whenever you miss an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;, you can roll again, using the new result instead.</content>
+  <content contentuid="h5a286c4cg6e16gc123g4c03gf1df9b80aa59" version="1">%%% EMPTY</content>
 </contentList>

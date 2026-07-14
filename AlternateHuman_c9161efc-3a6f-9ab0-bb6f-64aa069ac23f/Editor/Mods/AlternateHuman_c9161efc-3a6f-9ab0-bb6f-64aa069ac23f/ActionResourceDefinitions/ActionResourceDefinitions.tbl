@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="1f196a87-8d84-424d-badc-a3d11c5b8d23">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="UUID" type="IdTableFieldDefinition" value="edd85178-6db5-4c23-8e33-38363c6cc301" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="APO_HeroicInspirationCharge" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5a286c4cg6e16gc123g4c03gf1df9b80aa59" version="1" />
+        <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="Rest" />
+        <field name="IsHidden" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

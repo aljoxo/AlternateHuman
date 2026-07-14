@@ -5,7 +5,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="73b9a53f-3abb-4a1a-9c58-16a93564ba41" />
         <field name="Name" type="NameTableFieldDefinition" value="APO_HumanTraits" />
-        <field name="Passives" type="StringTableFieldDefinition" value="APO_TestPassive1,APO_TestPassive2" />
+        <field name="Passives" type="StringTableFieldDefinition" value="APO_HeartyTrait,APO_NomadicTrait,APO_ResourcefulTrait,APO_TenaciousTrait" />
       </fields>
     </stat_object>
   </stat_objects>

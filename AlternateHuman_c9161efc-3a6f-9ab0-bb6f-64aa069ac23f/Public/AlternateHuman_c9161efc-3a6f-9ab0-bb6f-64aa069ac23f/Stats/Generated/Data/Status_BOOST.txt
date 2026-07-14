@@ -1,0 +1,10 @@
+new entry "APO_TENACIOUS"
+type "StatusData"
+data "StatusType" "BOOST"
+using "RELENTLESS_ENDURANCE"
+data "DisplayName" "hb20db438g02ffgd0e4gb6b2gce058485a3d1;1"
+data "Icon" "PassiveFeature_Generic_Death"
+data "StackId" "APO_TENACIOUS"
+data "Boosts" "DownedStatus(APO_TENACIOUS_DOWNED,5);"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;ApplyToDead;IgnoreResting"
+

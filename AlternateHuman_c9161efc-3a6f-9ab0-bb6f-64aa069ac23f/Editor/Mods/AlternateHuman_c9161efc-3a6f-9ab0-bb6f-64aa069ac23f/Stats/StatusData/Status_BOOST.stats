@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="e2a8d59b-0e34-4a7c-bf5f-db7a2bb34cde">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bcc4647a-eb70-48a6-9535-5156d7a0936b" />
+        <field name="Name" type="NameTableFieldDefinition" value="APO_TENACIOUS" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2b7f7341-fd8e-4161-a901-347bcf61eea8" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb20db438g02ffgd0e4gb6b2gce058485a3d1" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Generic_Death" />
+        <field name="StackId" type="StringTableFieldDefinition" value="APO_TENACIOUS" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DownedStatus(APO_TENACIOUS_DOWNED,5);" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator;ApplyToDead;IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

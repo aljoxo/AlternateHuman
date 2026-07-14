@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="f01245cf-d242-4f5b-af85-f795d310ac2b">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="UUID" type="IdTableFieldDefinition" value="1b59a7ed-6386-4993-8a88-0cf0e3e592f0" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="4b6e7ec9-145b-4a95-9d8a-b2181de2749e" />
+        <field name="Origin" type="GuidTableFieldDefinition" value="35c3caad-5543-4593-be75-e7deba30f062" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DefaultValues" type="StringTableFieldDefinition" value="APO_ResourcefulTrait" />
+        <field name="SelectorId" type="StringTableFieldDefinition" value="APO_HumanTraits" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Gale" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_1" />
+        <field name="UUID" type="IdTableFieldDefinition" value="acca4583-cbac-4424-b2a2-82a0bb798587" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="4b6e7ec9-145b-4a95-9d8a-b2181de2749e" />
+        <field name="Origin" type="GuidTableFieldDefinition" value="efc9d114-0296-4a30-b701-365fc07d44fb" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DefaultValues" type="StringTableFieldDefinition" value="APO_TenaciousTrait" />
+        <field name="SelectorId" type="StringTableFieldDefinition" value="APO_HumanTraits" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Wyll" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_2" />
+        <field name="UUID" type="IdTableFieldDefinition" value="4aa14cb6-f833-41ad-abc4-f630bbc78f17" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="4b6e7ec9-145b-4a95-9d8a-b2181de2749e" />
+        <field name="Origin" type="GuidTableFieldDefinition" value="e1b629bc-7340-4fe6-81a4-834a838ff5c5" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DefaultValues" type="StringTableFieldDefinition" value="APO_HeartyTrait" />
+        <field name="SelectorId" type="StringTableFieldDefinition" value="APO_HumanTraits" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Minsc" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

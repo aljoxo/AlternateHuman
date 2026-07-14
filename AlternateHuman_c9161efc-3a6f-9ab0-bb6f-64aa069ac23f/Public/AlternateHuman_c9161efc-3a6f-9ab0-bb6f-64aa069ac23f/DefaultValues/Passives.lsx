@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="500"/>
+    <region id="DefaultValues">
+        <node id="root">
+            <children>
+                <!-- Gale -->
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="APO_ResourcefulTrait"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="OriginUUID" type="guid" value="35c3caad-5543-4593-be75-e7deba30f062"/>
+                    <attribute id="SelectorId" type="LSString" value="APO_HumanTraits"/>
+                    <attribute id="TableUUID" type="guid" value="4b6e7ec9-145b-4a95-9d8a-b2181de2749e"/>
+                    <attribute id="UUID" type="guid" value="1b59a7ed-6386-4993-8a88-0cf0e3e592f0"/>
+                </node>
+                <!-- Wyll -->
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="APO_TenaciousTrait"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="OriginUUID" type="guid" value="efc9d114-0296-4a30-b701-365fc07d44fb"/>
+                    <attribute id="SelectorId" type="LSString" value="APO_HumanTraits"/>
+                    <attribute id="TableUUID" type="guid" value="4b6e7ec9-145b-4a95-9d8a-b2181de2749e"/>
+                    <attribute id="UUID" type="guid" value="acca4583-cbac-4424-b2a2-82a0bb798587"/>
+                </node>
+                <!-- Minsc -->
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="APO_HeartyTrait"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="OriginUUID" type="guid" value="e1b629bc-7340-4fe6-81a4-834a838ff5c5"/>
+                    <attribute id="SelectorId" type="LSString" value="APO_HumanTraits"/>
+                    <attribute id="TableUUID" type="guid" value="4b6e7ec9-145b-4a95-9d8a-b2181de2749e"/>
+                    <attribute id="UUID" type="guid" value="4aa14cb6-f833-41ad-abc4-f630bbc78f17"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

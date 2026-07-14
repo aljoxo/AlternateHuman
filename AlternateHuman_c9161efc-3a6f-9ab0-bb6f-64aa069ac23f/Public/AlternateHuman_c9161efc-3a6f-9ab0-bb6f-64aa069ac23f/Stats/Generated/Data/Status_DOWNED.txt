@@ -1,0 +1,8 @@
+new entry "APO_TENACIOUS_DOWNED"
+type "StatusData"
+data "StatusType" "DOWNED"
+using "RELENTLESS_ENDURANCE_DOWNED"
+data "DisplayName" "he13d4940ge945g3631g3962g514751ee64db;1"
+data "Icon" "PassiveFeature_Generic_Death"
+data "OnApplyFunctors" "RemoveStatus(APO_TENACIOUS);RegainHitPoints(1,Guaranteed)"
+

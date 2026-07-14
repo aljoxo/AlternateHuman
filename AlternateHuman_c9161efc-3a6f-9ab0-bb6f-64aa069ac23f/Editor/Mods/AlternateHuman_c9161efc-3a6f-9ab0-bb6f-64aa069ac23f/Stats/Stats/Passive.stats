@@ -4,19 +4,48 @@
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="a0a6feaa-af68-449c-841c-b12e3c9c900c" />
-        <field name="Name" type="NameTableFieldDefinition" value="APO_TestPassive1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc8c88452gee5fgf713g2445g42ce2fd667bb" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="This is a test" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Buff" />
+        <field name="Name" type="NameTableFieldDefinition" value="APO_HeartyTrait" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h55d35030g7797g6f67gf55dg556d543ffd0c" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Tough" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf7610941gf872g7cdcgdbccgdd8dbcbedd2a" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IncreaseMaxHP(Level);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="650490f4-2108-4a40-95f5-f9c9e454379a" />
-        <field name="Name" type="NameTableFieldDefinition" value="APO_TestPassive2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5d74b51egf133gc88bgffbeg3c9e2c5fb08f" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="This is a test" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Buff" />
+        <field name="Name" type="NameTableFieldDefinition" value="APO_NomadicTrait" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd8b0b523g5482g34bcg1e3eg1e33a008f191" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="1.5" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Generic_Nature" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8485a9a5g1135g684fgdedfg303f78c553f7" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,1.5,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a1726c7b-4a7b-4158-84e2-d384ed625932" />
+        <field name="Name" type="NameTableFieldDefinition" value="APO_ResourcefulTrait" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1f6cd72cgbf7ag70aeg0c6bg2bd777a37d0c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h73bebfc3g3e0ag1f8dg0bb0gd075c5567fda" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Indomitable" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;OncePerLongRest" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(APO_HeroicInspiration_SavingThrow);UnlockInterrupt(APO_HeroicInspiration_AttackRoll);ActionResource(APO_HeroicInspirationCharge,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="365754f3-c323-4039-ab0b-72f7447f2d7c" />
+        <field name="Name" type="NameTableFieldDefinition" value="APO_TenaciousTrait" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbfecdd94g0011ga1c9g6a7cg9581bcadec1c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hef38f4fag6e0fg16eeg6becg4655421cdd6c" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Generic_Death" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;OncePerLongRest" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnLongRest" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(APO_TENACIOUS,100,-1)" />
       </fields>
     </stat_object>
   </stat_objects>

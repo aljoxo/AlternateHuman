@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="030d44f1-be8c-4538-9512-08111d49292a">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b5e20fb0-d5ec-493f-8c8b-9731ee13c0dc" />
+        <field name="Name" type="NameTableFieldDefinition" value="APO_TENACIOUS_DOWNED" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c7fe5977-85eb-4b21-a92e-296b9628c54a" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he13d4940ge945g3631g3962g514751ee64db" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Generic_Death" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(APO_TENACIOUS);RegainHitPoints(1,Guaranteed)" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="c496009d-a970-44a3-b882-7ed3364dc271">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c5560c54-b6f1-42d7-a33f-617f355745e2" />
+        <field name="Name" type="NameTableFieldDefinition" value="APO_HeroicInspiration_SavingThrow" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1a3e8f3eg1e56g220fga328g1ae18ed2f62b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h243a1bb3g2f1bged33gdb78g960ce75a8bb3" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Indomitable" />
+        <field name="InterruptContext" type="EnumerationListTableFieldDefinition" value="OnPostRoll" enumeration_type_name="InterruptContext" version="1" />
+        <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Self" enumeration_type_name="InterruptContextScope" version="1" />
+        <field name="Container" type="StringTableFieldDefinition" value="YesNoDecision" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and (Self(context.Target,context.Observer) and HasInterruptedSavingThrow()) and not AnyEntityIsItem() and IsRerollInterruptInteresting(context.Target);" />
+        <field name="Properties" type="StringTableFieldDefinition" value="SetReroll(20,true);" />
+        <field name="Cost" type="StringTableFieldDefinition" value="APO_HeroicInspirationCharge:1;" />
+        <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Ask;Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
+        <field name="EnableCondition" type="StringTableFieldDefinition" value="not (HasStatus('SG_Polymorph_BeastShape') or Tagged('MINDFLAYER') or Tagged('SLAYER') or Tagged('MYRMIDON_AIR') or Tagged('MYRMIDON_EARTH') or Tagged('MYRMIDON_FIRE') or Tagged('MYRMIDON_WATER'));" />
+        <field name="EnableContext" type="EnumerationListTableFieldDefinition" value="OnStatusApplied;OnStatusRemoved" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="InterruptFlags" type="EnumerationListTableFieldDefinition" value="InterruptWhileInvisible" enumeration_type_name="InterruptFlagsList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="88d107f8-95dd-4232-9324-894f5614dd9f" />
+        <field name="Name" type="NameTableFieldDefinition" value="APO_HeroicInspiration_AttackRoll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c5560c54-b6f1-42d7-a33f-617f355745e2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf0848025g6f1cg1534g5838g1af15b3b47ce" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h470222dbgeb72g6a1ag3d5ag701387949bbd" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and (Self(context.Source, context.Observer) and HasInterruptedAttack()) and not AnyEntityIsItem() and IsRerollInterruptInteresting(context.Source);" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>
