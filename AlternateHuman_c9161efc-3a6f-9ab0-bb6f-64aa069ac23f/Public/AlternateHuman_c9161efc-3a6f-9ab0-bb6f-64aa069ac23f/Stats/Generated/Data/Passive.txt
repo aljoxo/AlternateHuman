@@ -1,0 +1,12 @@
+new entry "APO_TestPassive1"
+type "PassiveData"
+data "Description" "hc8c88452gee5fgf713g2445g42ce2fd667bb;1"
+data "DescriptionParams" "This is a test"
+data "Icon" "GenericIcon_Intent_Buff"
+
+new entry "APO_TestPassive2"
+type "PassiveData"
+data "Description" "h5d74b51egf133gc88bgffbeg3c9e2c5fb08f;1"
+data "DescriptionParams" "This is a test"
+data "Icon" "GenericIcon_Intent_Buff"
+

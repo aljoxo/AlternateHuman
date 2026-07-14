@@ -1,21 +1,14 @@
-MIT License
+Copyright (c) 2026 aljoxo
 
-Copyright (c) 2025 xiphiasrex
+I. Source Code  
+Unless otherwise noted, all source files included with this mod, including but not limited to .txt, .lsx, .json, and .lua files, are licensed under the MIT License. (https://opensource.org/license/mit)
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+II. Game-Derived Assets  
+All .png and .dds files are derivative works based on assets from Baldur's Gate 3. These files were sourced from the Baldur's Gate 3 Wiki and remain the intellectual property of Larian Studios. No ownership is claimed over these assets.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Any use, redistribution, or modification of these files is subject to Larian Studios' Fan Content Policy. (https://larian.com/fan-content-policy)
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+III. Addendum
+The design, mechanics, and associated creative content are homebrew material created by the mod author. They are inspired by and intended for use with Wizards of the Coast's intellectual property and are distributed in accordance with Wizards of the Coast's Fan Content Policy.
+
+Any reuse or derivative works involving the subclass should likewise comply with Wizards of the Coast's Fan Content Policy. (https://company.wizards.com/en/legal/fancontentpolicy)

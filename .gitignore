@@ -192,3 +192,11 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# Files
+*.7z
+*.zip
+*.rar
+Image1.png
+Image2.png
+Thumbnail.png

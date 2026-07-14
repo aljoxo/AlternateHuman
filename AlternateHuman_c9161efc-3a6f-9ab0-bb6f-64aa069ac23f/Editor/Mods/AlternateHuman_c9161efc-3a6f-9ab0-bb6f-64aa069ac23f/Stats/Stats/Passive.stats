@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="3e76b74c-a5ae-4268-944a-aa9c31e2185e">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a0a6feaa-af68-449c-841c-b12e3c9c900c" />
+        <field name="Name" type="NameTableFieldDefinition" value="APO_TestPassive1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc8c88452gee5fgf713g2445g42ce2fd667bb" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="This is a test" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Buff" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="650490f4-2108-4a40-95f5-f9c9e454379a" />
+        <field name="Name" type="NameTableFieldDefinition" value="APO_TestPassive2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5d74b51egf133gc88bgffbeg3c9e2c5fb08f" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="This is a test" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Buff" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

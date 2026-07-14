@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="500"/>
+    <region id="PassiveLists">
+        <node id="root">
+            <children>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="APO_HumanTraits"/>
+                    <attribute id="Passives" type="LSString" value="APO_TestPassive1,APO_TestPassive2"/>
+                    <attribute id="UUID" type="guid" value="73b9a53f-3abb-4a1a-9c58-16a93564ba41"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
